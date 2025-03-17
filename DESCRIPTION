@@ -1,6 +1,6 @@
 Package: bdsm
 Title: Bayesian Dynamic Systems Modeling
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     c(person(given = "Mateusz",
            family = "Wyszynski",
@@ -27,15 +27,16 @@ LazyData: true
 RoxygenNote: 7.3.2
 Suggests: spelling, testthat (>= 3.0.0)
 Config/testthat/edition: 3
-Imports: dplyr, magrittr, optimbase, parallel, rje, rlang, rootSolve,
-        stats, tidyr, tidyselect
+Imports: dplyr, ggplot2, ggpubr, grid, gridExtra, knitr, magrittr,
+        optimbase, parallel, rje, rlang, rootSolve, stats, tidyr,
+        tidyselect
 Depends: R (>= 2.10)
 Language: en-US
 NeedsCompilation: no
-Packaged: 2025-01-18 20:49:43 UTC; marcindubel
+Packaged: 2025-03-16 21:34:16 UTC; marcindubel
 Author: Mateusz Wyszynski [aut],
   Marcin Dubel [ctb, cre],
   Krzysztof Beck [ctb]
 Maintainer: Marcin Dubel <marcindubel@gmail.com>
 Repository: CRAN
-Date/Publication: 2025-01-21 15:30:02 UTC
+Date/Publication: 2025-03-17 07:30:12 UTC
