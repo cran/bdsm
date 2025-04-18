@@ -1,6 +1,6 @@
 Package: bdsm
 Title: Bayesian Dynamic Systems Modeling
-Version: 0.1.1
+Version: 0.2.0
 Authors@R: 
     c(person(given = "Mateusz",
            family = "Wyszynski",
@@ -25,18 +25,18 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
-Suggests: spelling, testthat (>= 3.0.0)
+Suggests: rmarkdown, spelling, testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: dplyr, ggplot2, ggpubr, grid, gridExtra, knitr, magrittr,
-        optimbase, parallel, rje, rlang, rootSolve, stats, tidyr,
-        tidyselect
-Depends: R (>= 2.10)
+        optimbase, parallel, pbapply, rje, rlang, rootSolve, stats,
+        tidyr, tidyselect
+Depends: R (>= 3.5)
 Language: en-US
 NeedsCompilation: no
-Packaged: 2025-03-16 21:34:16 UTC; marcindubel
+Packaged: 2025-04-18 08:14:54 UTC; marcindubel
 Author: Mateusz Wyszynski [aut],
   Marcin Dubel [ctb, cre],
   Krzysztof Beck [ctb]
 Maintainer: Marcin Dubel <marcindubel@gmail.com>
 Repository: CRAN
-Date/Publication: 2025-03-17 07:30:12 UTC
+Date/Publication: 2025-04-18 08:30:05 UTC
