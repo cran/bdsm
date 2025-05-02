@@ -1,7 +1,7 @@
-0192418c3aca8a5a598b8f0018a641cc *DESCRIPTION
+ef9add3614a002a00a64fa13695ea258 *DESCRIPTION
 c47b0921021769d89917901c6cb202b3 *LICENSE
 f9816b26823f84c0cd846e051d3be662 *NAMESPACE
-7cec6425de0322545b2c8323469daf75 *NEWS.md
+67d5510bf40c94854ba9ef129740dc7d *NEWS.md
 a4545ac591cd31fdd89bba4065c23f5f *R/SEM_likelihood.R
 40701228e637182bb65adb7181867c63 *R/SEM_matrices.R
 7650ca7a257d94eeaaec1ec1a7d2662a *R/best_models.R
@@ -15,11 +15,15 @@ bb7783181c4b2dabdab517b0e6a43109 *R/model_pmp.R
 f25753242c69005af2b92377e5050be6 *R/model_sizes.R
 7a8bceb23ac59eb38f174e36a1544edd *R/model_space.R
 291b7ab5cea3502b6c6b78a1d30960e2 *README.md
+a3c1a766e5d868f907fdf2c8e11aaa5a *build/vignette.rds
 3f7a1e4549d5206beba3cfbcb095f25c *data/economic_growth.rda
 f353a78704698a956b7afece6adf68c0 *data/full_model_space.rda
 47a6b8db56ec95ec72ca26d9084de5af *data/original_economic_growth.rda
 ef33146c9b9f1a0d7ab371cfdc276a3c *data/small_model_space.rda
 1727c43be2ead13768d2670ca854d9df *inst/WORDLIST
+ffafa364d05d2d69c2b2cd7c35faf8f7 *inst/doc/bdsm_vignette.R
+ff28ad06d82e3facf497e480ba535af2 *inst/doc/bdsm_vignette.Rnw
+f8b57398a4a6cf2cbd6bfcf7e4ff49f3 *inst/doc/bdsm_vignette.pdf
 6b02cc7ea14970ec74eb90890349d053 *inst/extdata/economic_growth_raw.xlsx
 d2e09e280400c598b423229a9d9f88e0 *man/best_models.Rd
 5ea3267fb4e122461e8b5c1150d51ebd *man/bma.Rd
@@ -69,4 +73,6 @@ d90d5707df91fa53f3386e3fc70828f8 *tests/testthat/test-jointness.R
 fe6ef24ab69ee5896412f5a16f39d97a *tests/testthat/test-model_pmp.R
 a34bc4b09e9c3a60a7c4fa11adc6a831 *tests/testthat/test-model_sizes.R
 6f666fbb6fc401d162311887b4826706 *tests/testthat/test-model_space.R
-a0d3802ef55e4cd212d7aa508221c1b3 *tests/testthat/testthat-problems.rds
+77647ad43a99e9d8b2661f2ca815cba7 *vignettes/apalike.bst
+ff28ad06d82e3facf497e480ba535af2 *vignettes/bdsm_vignette.Rnw
+cce6fd31bb57ad6dbcc707530db1bff1 *vignettes/references.bib
