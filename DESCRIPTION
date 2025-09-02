@@ -1,6 +1,6 @@
 Package: bdsm
 Title: Bayesian Dynamic Systems Modeling
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: 
     c(person(given = "Mateusz",
            family = "Wyszynski",
@@ -33,10 +33,10 @@ Imports: dplyr, ggplot2, ggpubr, grid, gridExtra, knitr, magrittr,
 Depends: R (>= 3.5)
 Language: en-US
 NeedsCompilation: no
-Packaged: 2025-05-02 18:37:24 UTC; root
+Packaged: 2025-09-02 20:52:08 UTC; root
 Author: Mateusz Wyszynski [aut],
   Marcin Dubel [ctb, cre],
   Krzysztof Beck [ctb]
 Maintainer: Marcin Dubel <marcindubel@gmail.com>
 Repository: CRAN
-Date/Publication: 2025-05-02 18:50:02 UTC
+Date/Publication: 2025-09-02 21:10:13 UTC

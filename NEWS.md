@@ -1,3 +1,8 @@
+# bdsm 0.2.2
+
+* Modified the method for selecting beta coefficient rows in the `bma` function for improved robustness and compatibility.
+* Updated tests to align with changes in the upcoming ggplot2 release (v4.0.0), ensuring compatibility and future-proofing the package.
+
 # bdsm 0.2.1
 
 * Added vignette explaining Bayesian model averaging for dynamic panels with weakly exogenous regressors
@@ -21,7 +26,10 @@
 * Removed R/SEM_bma.R:
     * The file R/SEM_bma.R was deleted, indicating major re-factoring or deprecation of related functionality.
 * Added progress bar for computationally intensive functions
-* Modified refer to the model space as the list containing two named elements: parameters (params) of all considered models and statistics (stats) computed using these parameters. 
+* Changed naming convention and broadened the meaning of a model space.
+Now it's a list containing two named elements:
+parameters (params) of all considered models
+and statistics (stats) computed using these parameters. 
 This is a much more comprehensible naming convention than the previous one, where only the parameters were considered as the model space. 
 Along with that change, some re-factoring and modifications were introduced:
     * all functions relating to the model space are now stored in R/model_space.R
